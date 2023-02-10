@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } 
     else {
-        echo "invalid phone number <br>";
+     echo "invalid phone number <br>";
     }
     
 }
