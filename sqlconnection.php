@@ -59,7 +59,7 @@ if($result->num_rows>0){
     while($row=$result->fetch_assoc()){
         echo "id: " . $row['id'] . " name: " . $row['name'] . " age:" . $row['age']."<br>";
     }
-}
+}//connection
 else{
     echo "No data on table";
 }
