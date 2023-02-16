@@ -65,7 +65,7 @@ else{
 }
 
 echo "After deletion<br>";
-//deletion  from table
+//deletion  from table 
 
 $deletequery = "delete from mytable where id=3";
 if($conn->query($deletequery)==true){
@@ -77,5 +77,5 @@ if($conn->query($deletequery)==true){
     }
     }
 }
-$conn->close();
+$conn->close();//connection closing
 ?>
